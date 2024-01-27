@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins Light";
+    background-color: rgb(17, 16, 16);
+}
+.headera {
+    background-color: black;
+    width: 101.8%;
+    height: 100px;
+}
+.gauche {
+   border-right: 1px solid white;
+   height: 558px;
+}
+.logo_name {
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 35px;
+    left: 100px;
+    background: -webkit-linear-gradient(rgb(197, 228, 230),rgb(156, 228, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.menu {
+    position: relative;
+    top:35px;
+    left: 280px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    color: white;
+    border-bottom: 4px solid rgb(4, 189, 158);
+    transition: 0.5s ease;
+}
+.active {
+    border-bottom: 4px solid rgb(4, 189, 158);
+}
+.regle {
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    height: 700px;
+}
+.Connecta {
+    position: relative;
+    top: 20px;
+    margin-left: 100px;
+    color: white;
+}
+.formulaire {
+    width: 88.5%;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    margin-left: 100px;
+}
+.reach_us {
+    width: 85%;
+    height: 400px;
+    background-color: rgb(4, 189, 158);
+    position: relative;
+    top: 20px;
+    right: 13px;
+}
+.send,
+.reach_us_h1 {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-weight: bolder;
+    color: rgb(4, 189, 158);
+}
+.form {
+     /*border: 1px solid red; */
+    width: 80%;
+    height: 270px;
+    position: relative;
+    left: 50px;
+}
+.Nom{
+    position: relative;
+    top: 15px;
+    left: 0px;
+    color:rgb(4, 189, 158) ;
+}
+.input_form {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    border: none;
+    border-bottom: 1px solid rgb(4, 189, 158);
+    outline: none;
+}
+.droit {
+    position: relative;
+    bottom: 122px;
+    left: 250px;
+}
+.message {
+    /*border: 1px solid red; */
+    width: 80.5%;
+    height: 126px;
+    position: relative;
+    bottom: 100px;
+}
+.Message-msg {
+    color:rgb(4, 189, 158);
+    position: relative;
+    top: 15px;
+}
+.votre_msg{
+    position: relative;
+    top: 20px;
+    border: 1px solid grey;
+    outline: none;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+.envoyer {
+    position: relative;
+    bottom: 83px;
+    padding: 6px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(4, 189, 158);
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 10px 3px 15px rgb(4, 189, 158) ;
+}
+.envoyer:hover {
+    background: linear-gradient(to right,rgb(197,228,230),rgb(4,189,158));
+    transition: 0.5s ease;
+}
+.reach_us_h1 {
+    color: white;
+}
+.info {
+    position: relative;
+    padding-left: 50px;
+    margin-top: 45px;
+    color: white;
+}

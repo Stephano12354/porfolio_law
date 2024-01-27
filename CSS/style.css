@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins Light";
+    background-color: rgb(17, 16, 16);
+}
+.headera {
+    background-color: black;
+    width: 101.8%;
+    height: 100px;
+}
+.gauche {
+   border-right: 1px solid white;
+   height: 558px;
+}
+.logo_name {
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 35px;
+    left: 100px;
+    background: -webkit-linear-gradient(rgb(197, 228, 230),rgb(156, 228, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.menu {
+    position: relative;
+    top:35px;
+    left: 280px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    color: white;
+    border-bottom: 4px solid rgb(4, 189, 158);
+    transition: 0.5s ease;
+}
+.active {
+    border-bottom: 4px solid rgb(4, 189, 158);
+}
+.Legende {
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+.Legende h1 {
+   color: white;
+   font-size: 35px;
+}
+.Legende h4 {
+    color: grey;
+    font-size: 25px;
+}
+.Legende p {
+   width: 500px;
+   text-align: justify;
+   color: white;
+   position: relative;
+   top: 15px;
+}
+.monCV {
+    position: relative;
+    top: 40px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(197,228,230),rgb(4,189,158));
+    border-style: none;
+    border-radius: 2px;
+}
+.monCV:hover {
+    position: relative;
+    left: 5px;
+    transition: 0.5s ease;
+}
+.monCV a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.monProfil{
+    position: relative;
+    top: 90px;
+    left: 110px;
+    border-radius: 50%;
+    border-style: none;
+    box-shadow: 11px 3px 20px rgb(197,228,230);
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins Light";
+    background-color: rgb(17, 16, 16);
+}
+.a-propos{
+    width: 84%;
+    height: 450px;
+   /* border: 1px solid white;*/
+    position: relative;
+    top: 90px;
+    left: 119px;
+}
+.gauche{
+    /*border-right: 1px solid white;*/
+    height: 449px;
+    background-color: rgb(4, 189, 158);
+}
+.droite{
+    background-color: white;
+}
+.photo_recent{
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+.Bonjour{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 50px;
+    color: white;
+}
+.pro_moi{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 20px;
+}
+.title_moi{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.para{
+    width: 600px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    text-align: justify;
+}
+.btn_contact{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    padding: 15px 15px;
+    border-radius: 30px;
+    border: 2px solid rgb(4, 189, 158);
+    background-color: transparent;
+
+}
+.btn_contact a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.btn_contact:hover{
+    box-shadow: 10px 10px 10px rgb(4, 189, 158);
+
+}

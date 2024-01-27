@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins Light";
+    background-color: rgb(17, 16, 16);
+}
+.back{
+    width: 101.8%;
+    height: 556px;
+    background-color: none;
+    border: 1px solid white;
+}
+.regle{
+    /*border-bottom: 1px solid white;*/
+    /*border-top: 1px solid white;*/
+    height: 450px;
+    position: relative;
+    top: 40px;
+}
+.reg{
+    /* border: 1px solid white;*/
+}
+.info-service{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    /* border: 1px solid white;*/
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+.titre_service{
+    width: 220px;
+    height: 60px;
+   /* border: 1px solid white;*/
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border-radius: 30px;
+}
+.paragraphe_service{
+    width: 220px;
+    height: 280px;
+    /* border: 1px solid white;*/
+    position: relative;
+    top: 40px;
+    left: 15px;
+    background-color: rgba(77, 118, 179, 0.185);
+    border-radius: 10px;
+}
+.c1{
+    background-color: rgb(4, 189, 158);
+}
+.c2{
+    background-color: rgb(15, 58, 15);
+}
+.c3{
+    background-color: rgb(16, 15, 54);
+}
+.c4{
+    background-color: rgb(57, 55, 99);
+}
+.h1-service{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.para-Service{
+    color: white;
+    font-size: 14px;
+    width: 199px;
+    position: relative;
+    text-align: justify;
+    position: relative;
+    left: 10px;
+    padding-top: 10px;
+
+}

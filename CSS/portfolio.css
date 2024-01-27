@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins Light";
+    background-color: rgb(17, 16, 16);
+}
+.headera {
+    background-color: black;
+    width: 101.8%;
+    height: 100px;
+}
+.gauche {
+   border-right: 1px solid white;
+   height: 558px;
+}
+.logo_name {
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 35px;
+    left: 100px;
+    background: -webkit-linear-gradient(rgb(197, 228, 230),rgb(156, 228, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.menu {
+    position: relative;
+    top:35px;
+    left: 280px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    color: white;
+    border-bottom: 4px solid rgb(4, 189, 158);
+    transition: 0.5s ease;
+}
+.active {
+    border-bottom: 4px solid rgb(4, 189, 158);
+}
+.Mon_education {
+    text-align: center;
+    color:white;
+    position: relative;
+    top: 10px;
+}
+.Mon_education strong {
+    color: rgb(4, 189, 158);
+}
+.info_edu {
+    width: 80%;
+    height: 855px;
+    /*border: 1px solid white; */
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+    
+}
+.regle{
+     /*border: 1px solid white; */
+    height: 280px;
+}
+.colonne{
+   /*border: 1px solid white; */
+}
+.objet {
+    width: 3px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+}
+.Aiss{
+    position: relative;
+    bottom: 208px;
+    right: 10px;
+    color: white;
+}
+.place_icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(4, 189, 158);
+    border-radius: 50%;
+    position: relative;
+    bottom: 160px;
+    right: 22px;
+}
+.anne{
+    color: white;
+    position: relative;
+    bottom: 250px;
+    left: 40px;
+    font-size: 14px;
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 110px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.info-local {
+   /*border: 1px solid white; */
+    width: 80%;
+    height: 140px;
+    position: relative;
+    bottom: 260px;
+    left: 25px;
+}
+.info-h1{
+    font-size: 18px;
+    color: rgb(4, 189, 158);
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.info-p{
+    font-size: 13px;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+}
+.Cuiller{
+    background-color: none;
+    height: 650px;
+    /*border: 1px solid white;*/
+    
+}
+.profil {
+    background-color: none;
+    height: 350px;
+    /*border: 1px solid white;*/
+}
+.profil-Info {
+    width: 80%;
+    height: 300px;
+    /*border: 1px solid white;*/
+    position: relative;
+    top: 25px;
+    left: 135px;
+}
+.rul{
+    /*border-right: 1px solid white;*/
+    height: 299px;
+}
+.profile_A {
+    width:90%;
+    height: 250px;
+    border: 3px solid rgb(4, 189, 158);
+    position: relative;
+    top: 28px;
+    left: 18px;
+}
+.profile_A:hover{
+    background-color: rgb(82, 167, 152);
+    box-shadow: 3px 3px 20px rgb(4, 189, 158);
+    transition: 0.7s ease;
+}
+.pro-fi-le{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 21px;
+    background: -webkit-linear-gradient(rgb(197, 228, 230),rgb(156, 228, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.para-profile{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+}
+.CV{
+    position: relative;
+    top: 80px;
+    left: 560px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.CV:hover{
+    background-color: rgb(4, 189, 158);
+}
+.CV a {
+   text-decoration: none;
+   font-size: 21px;
+   color: black;
+   font-weight: bold;
+}

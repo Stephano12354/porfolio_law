@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>Contact | STEPHANO</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row headera">
+                <div class="col-md-4 ">
+                    <h1 class="logo_name">Stephano</h1>
+                </div>
+                <div class="col-md-8">
+                    <a href="Index.html" class="menu">Accueil</a>
+                    <a href="Portfolio.html" class="menu">Portfolio</a>
+                    <a href="Services.html" class="menu">Service</a>
+                    <a href="Apropos.html" class="menu">A propos</a>
+                    <a href="Contact.html"class="menu active">Contact</a>  
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="Connecta">
+                    <h2>Connect with Us</h2>
+                    <p>Nous serons toujour disponible pour vos besoin numerique.</p>
+                </div>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="formulaire">
+                    <h1 class="send">Envoyer nous votre requetes</h1>
+                    <div class="form">
+                        <form onsubmit="emailSend(); reset(); return false;">
+                                <label class="Nom">Nom</label><br>
+                                <input class="input_form" type="text"  id="nom" name="nom" required placeholder="STEPHANO LAW LEUNG"><br><br>
+                                <label class="Nom">Email</label><br>
+                                <input class="input_form" type="text" id="email" name="email" required placeholder="slawleung@gmail.com"><br>
+                            <div class="droit">
+                                <label class="Nom">Phone</label><br>
+                                <input class="input_form" type="text" id="phone" name="phone" required placeholder="+ 261 32 71 900 24"><br><br>
+                                <label class="Nom">Subject</label><br>
+                                <input class="input_form" type="text" id="subject" name="subject" required placeholder="Legende Mail">
+                            </div>  
+                            <div class="message">
+                                <label class="Message-msg">Message</label><br>
+                                <input class="votre_msg" type="text" id="votre_msg" name="votre_msg" required placeholder="Votre message">
+                            </div>
+                            <input type="submit" class="envoyer" value="Envoyer">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="reach_us">
+                    <h1 class="reach_us_h1">Nos information</h1>
+                    <div class="info">
+                        <p> <strong>Email :</strong>  slawleung@gmail.com</p>
+                        <p> <strong> Phone : </strong>+261 (32) 71 900 24</p>
+                        <p> <strong>Facebook :</strong>  Yann Angeliciodj</p>
+                        <p> <strong>LikeDin :</strong> STEPHANO LAW LEUNG</p>
+                        <p> <strong>Instagrame :</strong> STEPHANO LAW LEUNG</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de container-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="JS/Contact.js"></script>
+</body>
+</html>
